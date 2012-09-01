@@ -59,6 +59,7 @@ on emmc-fs
 
     mount tmpfs tmpfs /system/etc/snd_soc_msm
     symlink /res/etc/snd_soc_msm/snd_soc_msm_2x /system/etc/snd_soc_msm/snd_soc_msm_2x
+    symlink /res/etc/snd_soc_msm/audio_policy.conf /system/etc/snd_soc_msm/audio_policy.conf
 
     # create directory for ril data
     mkdir /data/misc/radio 0775 radio radio
